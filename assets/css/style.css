@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    background-color: #d4e6fe;
+    color: #3045f4;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: block;
+    align-items: center;
+    background-color: #fdfeff;
+    height: 570px;
+    width: 730px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+h2 {
+    padding-left: 75px;
+    padding-top: 30px;
+}
+
+.contact-form {
+    padding-left: 70px;
+    padding-right: 70px;
+    display: block;
+}
+
+#first-name,
+#last-name {
+    background-color: #e7e9fe;
+    color: #405df2;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 95px;
+    border-radius: 10px;
+    margin: 5px;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+#email,
+#phone {
+    background-color: #dce1ff;
+    color: #3f4ef4;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 95px;
+    border-radius: 10px;
+    margin: 5px;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+#address {
+    background-color: #c7cdfd;
+    color: #3c5af7;
+    border: none;
+    width: 455px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 95px;
+    border-radius: 10px;
+    margin: 5px;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+#type-message {
+    background-color: #a5b1fd;
+    color: #1f44f1;
+    border: none;
+    width: 455px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    padding-left: 25px;
+    padding-right: 95px;
+    border-radius: 10px;
+    margin: 5px;
+    display: block;
+    resize: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+#submit {
+    background-color: #233bf3;
+    color: #e1e3fd;
+    border: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 40px;
+    margin-left: 185px;
+    display: block;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.thanks {
+    color: #68debc;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: bolder;
+}
